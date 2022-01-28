@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ siteName }}</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body>
+    <div class="container mx-auto prose">
+      <div class="space-y">
+        <pre>
+          Site: <code>{{ currentSite.handle }}</code>
+          Environment: <code>{{ craft.app.env }}</code>
+          Current User: <code>{{ currentUser ? "#{ currentUser.username } <#{ currentUser.email }>" : "—" }}</code>
+        </pre>
+
+        {{ block('main') }}
+      </div>
+    </div>
+  </body>
+</html>

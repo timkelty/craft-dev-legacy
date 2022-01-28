@@ -1,0 +1,9 @@
+baseUrl: '@web/'
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft CMS Development'
+primary: true
+siteGroup: 55ac92e4-c136-4544-ba73-0d26ba2a8e8b # Default Site Group
+sortOrder: 1
