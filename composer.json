@@ -1,5 +1,6 @@
 {
   "require": {
+    "craftcms/aws-s3": "*",
     "craftcms/cms": "*",
     "vlucas/phpdotenv": "^5.4.0"
   },
@@ -19,15 +20,19 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.0"
+      "php": "7.4"
     }
   },
-  "repositories": [
-    {
+  "repositories": {
+    "aws-s3": {
+      "type": "path",
+      "url": "submodules/aws-s3"
+    },
+    "craftcms": {
       "type": "path",
       "url": "submodules/craftcms"
     }
-  ],
+  },
   "scripts": {
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
