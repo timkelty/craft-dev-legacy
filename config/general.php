@@ -29,6 +29,8 @@ return [
     // Whether crawlers should be allowed to index pages and following links
     'disallowRobots' => !$isProd,
 
+    // 'disabledPlugins' => '*',
+
     'aliases' => [
         '@web' => App::env('DEFAULT_SITE_URL')
     ]
