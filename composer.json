@@ -2,6 +2,7 @@
   "require": {
     "craftcms/aws-s3": "*",
     "craftcms/cms": "*",
+    "craftcms/redactor": "*",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
@@ -24,6 +25,10 @@
     }
   },
   "repositories": {
+    "redactor": {
+      "type": "path",
+      "url": "submodules/redactor"
+    },
     "aws-s3": {
       "type": "path",
       "url": "submodules/aws-s3"
