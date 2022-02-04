@@ -28,13 +28,13 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: testVolume
+handle: publicWebVolume
 hasUrls: true
-name: 'Test Volume'
+name: 'Public Web Volume'
 settings:
-  path: '@webroot/test-volume'
+  path: '@webroot/volume'
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: null
 type: craft\volumes\Local
-url: '@web/test-volume'
+url: '@web/volume'

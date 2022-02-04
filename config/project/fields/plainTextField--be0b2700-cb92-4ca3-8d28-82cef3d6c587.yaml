@@ -1,0 +1,19 @@
+columnSuffix: amzhldqt
+contentColumnType: text
+fieldGroup: b8a55f86-ac61-45ce-9d6e-ecb0143801e8 # Common
+handle: plainTextField
+instructions: ''
+name: 'Plain Text Field'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

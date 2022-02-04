@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: channel
+name: Channel
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  0fa3ee94-9804-4d1d-a084-479bd7516a07: # Craft CMS Development
+    enabledByDefault: true
+    hasUrls: true
+    template: entry.twig
+    uriFormat: 'channel/{slug}'
+type: channel

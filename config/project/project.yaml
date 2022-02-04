@@ -1,4 +1,4 @@
-dateModified: 1643646961
+dateModified: 1643994005
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft CMS Development'
@@ -6,19 +6,30 @@ email:
 meta:
   __names__:
     0fa3ee94-9804-4d1d-a084-479bd7516a07: 'Craft CMS Development' # Craft CMS Development
+    1a951ffb-7af9-47bc-89d9-9678db8e67dd: Editor # Editor
+    45da72e5-9e60-4931-b242-57b32130c128: Channel # Channel
     55ac92e4-c136-4544-ba73-0d26ba2a8e8b: 'Default Site Group' # Default Site Group
-    476f5029-8ace-4889-b1a9-8549238d410f: 'Test Volume' # Test Volume
+    476f5029-8ace-4889-b1a9-8549238d410f: 'Public Web Volume' # Public Web Volume
     959285a3-c8a2-40a2-840c-5dbcde6663fe: 'Public Schema' # Public Schema
+    b6b742d5-a223-4294-869c-fa6c464e5a25: Manager # Manager
     b8a55f86-ac61-45ce-9d6e-ecb0143801e8: Common # Common
+    be0b2700-cb92-4ca3-8d28-82cef3d6c587: 'Plain Text Field' # Plain Text Field
+    c2c17e44-bbd2-41eb-9749-dd16237d458b: Default # Default
+    ca58395f-6040-4801-9a76-8fa8538f3b73: 'Redactor Field' # Redactor Field
+    e9cc9ce7-8a57-416e-9fd7-568ccccc495b: 'Test Category Group' # Test Category Group
+plugins:
+  craft-fab-permissions:
+    edition: standard
+    enabled: true
+    licenseKey: 5RU8RNCVUIYACWO7MV6ZVR28
+    schemaVersion: 1.0.3
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: pro
   live: true
   name: 'Craft CMS Development'
   schemaVersion: 3.7.8
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  requireEmailVerification: true
