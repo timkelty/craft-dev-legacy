@@ -26,7 +26,16 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
-        name: Content
+          -
+            fieldUid: ca58395f-6040-4801-9a76-8fa8538f3b73 # Redactor Field
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Tab 1'
         sortOrder: 1
       -
         elements:
@@ -39,11 +48,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
-          -
-            style: tip
-            tip: null
-            type: craft\fieldlayoutelements\Tip
-        name: 'Test Tab'
+        name: 'Tab 2'
         sortOrder: 2
 handle: default
 hasTitleField: true
