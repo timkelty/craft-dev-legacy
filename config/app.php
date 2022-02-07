@@ -24,4 +24,24 @@ return [
         'my-module' => \modules\Module::class,
     ],
     'bootstrap' => ['my-module'],
+    'components' => [
+        // 'redis' => [
+        //     'class' => yii\redis\Connection::class,
+        //     'hostname' => 'redis.service.nitro',
+        //     'port' => 6379,
+        //     'database' => 0,
+        // ],
+        // 'cache' => function () {
+        //     return \Craft::createObject([
+        //         'class' => \yii\redis\Cache::class,
+        //         'defaultDuration' => \Craft::$app->getConfig()->getGeneral()->cacheDuration,
+        //     ]);
+        // },
+        // 'session' => [
+        //     'class' => \yii\redis\Session::class,
+        //     'as session' => [
+        //         'class' => \craft\behaviors\SessionBehavior::class,
+        //     ],
+        // ],
+    ]
 ];
