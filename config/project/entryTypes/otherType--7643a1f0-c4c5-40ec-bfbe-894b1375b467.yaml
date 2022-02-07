@@ -1,6 +1,5 @@
-defaultPlacement: end
 fieldLayouts:
-  8fd234db-07dc-481f-a851-b8df1a62b150:
+  566a1544-d3d7-490b-b03f-c872f1421442:
     tabs:
       -
         elements:
@@ -24,22 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
+            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: testCategoryGroup
-name: 'Test Category Group'
-siteSettings:
-  0fa3ee94-9804-4d1d-a084-479bd7516a07: # Craft CMS Development
-    hasUrls: true
-    template: null
-    uriFormat: 'test-category-group/{slug}'
-  1224d65e-5834-45a7-bb36-03622f821090: # Other Site
-    hasUrls: true
-    template: null
-    uriFormat: 'test-category-group/{slug}'
-structure:
-  maxLevels: null
-  uid: 58c63af6-8a35-4458-bea8-a89e5001d259
+handle: otherType
+hasTitleField: true
+name: 'Other Type'
+section: 45da72e5-9e60-4931-b242-57b32130c128 # Channel
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

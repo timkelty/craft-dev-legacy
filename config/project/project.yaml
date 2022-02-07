@@ -1,4 +1,4 @@
-dateModified: 1643994217
+dateModified: 1644257998
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft CMS Development'
@@ -10,6 +10,8 @@ meta:
     45da72e5-9e60-4931-b242-57b32130c128: Channel # Channel
     55ac92e4-c136-4544-ba73-0d26ba2a8e8b: 'Default Site Group' # Default Site Group
     476f5029-8ace-4889-b1a9-8549238d410f: 'Public Web Volume' # Public Web Volume
+    1224d65e-5834-45a7-bb36-03622f821090: 'Other Site' # Other Site
+    7643a1f0-c4c5-40ec-bfbe-894b1375b467: 'Other Type' # Other Type
     959285a3-c8a2-40a2-840c-5dbcde6663fe: 'Public Schema' # Public Schema
     b6b742d5-a223-4294-869c-fa6c464e5a25: Manager # Manager
     b8a55f86-ac61-45ce-9d6e-ecb0143801e8: Common # Common

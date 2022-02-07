@@ -10,7 +10,7 @@ previewTargets:
         - 'Primary entry page'
       -
         - urlFormat
-        - '{url}'
+        - '{% if object.type.handle != ''default'' %}{{ object.url }}{% endif %}'
       -
         - refresh
         - '1'
