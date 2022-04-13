@@ -14,7 +14,3 @@ require_once CRAFT_VENDOR_PATH . '/autoload.php';
 if (class_exists('Dotenv\Dotenv')) {
     Dotenv\Dotenv::createUnsafeImmutable(CRAFT_BASE_PATH)->safeLoad();
 }
-
-// Define additional PHP constants
-// (see https://craftcms.com/docs/3.x/config/#php-constants)
-define('CRAFT_ENVIRONMENT', getenv('ENVIRONMENT') ?: 'production');

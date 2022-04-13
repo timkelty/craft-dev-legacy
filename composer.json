@@ -1,8 +1,6 @@
 {
   "require": {
-    "craftcms/aws-s3": "*",
-    "craftcms/cms": "*",
-    "craftcms/redactor": "*",
+    "craftcms/cms": "*@dev",
     "vlucas/phpdotenv": "^5.4.0",
     "yiisoft/yii2-redis": "^2.0"
   },
@@ -26,14 +24,6 @@
     }
   },
   "repositories": {
-    "redactor": {
-      "type": "path",
-      "url": "submodules/redactor"
-    },
-    "aws-s3": {
-      "type": "path",
-      "url": "submodules/aws-s3"
-    },
     "craftcms": {
       "type": "path",
       "url": "submodules/craftcms"
@@ -43,5 +33,7 @@
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ]
-  }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "beta"
 }
