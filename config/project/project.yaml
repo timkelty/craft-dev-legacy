@@ -9,7 +9,7 @@ meta:
     9bba7d12-c1ad-4374-8ace-f20c542a8d70: Common # Common
     f2ec2185-50ac-4c62-8098-a68efcd2a7aa: 'Craft CMS Development' # Craft CMS Development
 system:
-  edition: solo
+  edition: pro
   live: true
   name: 'Craft CMS Development'
   schemaVersion: 3.7.33
