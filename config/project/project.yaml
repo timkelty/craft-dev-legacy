@@ -1,4 +1,4 @@
-dateModified: 1650931127
+dateModified: 1650931675
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft CMS Development'
@@ -8,6 +8,11 @@ meta:
     1f966f51-ab55-4b30-8702-32e023dea799: 'Craft CMS Development' # Craft CMS Development
     9bba7d12-c1ad-4374-8ace-f20c542a8d70: Common # Common
     f2ec2185-50ac-4c62-8098-a68efcd2a7aa: 'Craft CMS Development' # Craft CMS Development
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: pro
   live: true
