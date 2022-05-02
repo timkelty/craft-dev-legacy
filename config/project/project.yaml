@@ -1,23 +1,18 @@
-dateModified: 1650931675
+dateModified: 1651517987
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft CMS Development'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    1f966f51-ab55-4b30-8702-32e023dea799: 'Craft CMS Development' # Craft CMS Development
-    9bba7d12-c1ad-4374-8ace-f20c542a8d70: Common # Common
-    f2ec2185-50ac-4c62-8098-a68efcd2a7aa: 'Craft CMS Development' # Craft CMS Development
-plugins:
-  redactor:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.3.0
+    1c1329c6-45fd-4281-a1f6-c06df05ef53d: 'Craft CMS Development'
+    3b8d4818-4921-4ead-b07c-58292d8bab52: 'Craft CMS Development'
+    c9cd7e70-1bf2-4b45-a229-0a1f69cbf54a: Common
 system:
-  edition: pro
+  edition: solo
   live: true
   name: 'Craft CMS Development'
-  schemaVersion: 3.7.33
+  schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

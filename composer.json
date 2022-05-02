@@ -1,7 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "*@dev",
-    "craftcms/redactor": "*@dev",
+    "craftcms/cms": "4.0.x-dev",
     "vlucas/phpdotenv": "^5.4.0",
     "yiisoft/yii2-redis": "^2.0"
   },
@@ -22,12 +21,6 @@
     "optimize-autoloader": true,
     "platform": {
       "php": "8.0"
-    }
-  },
-  "repositories": {
-    "craftcms": {
-      "type": "path",
-      "url": "submodules/*"
     }
   },
   "scripts": {
