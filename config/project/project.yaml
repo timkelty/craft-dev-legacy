@@ -1,4 +1,4 @@
-dateModified: 1651640041
+dateModified: 1651773880
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft CMS Development'
@@ -20,11 +20,11 @@ fs:
     url: '@web/volumes/member-photos'
 meta:
   __names__:
-    00c970ca-8955-4fba-a4eb-bb81c44607fc: 'Member Photos' # Member Photos
-    1c1329c6-45fd-4281-a1f6-c06df05ef53d: 'Craft CMS Development' # Craft CMS Development
-    3b8d4818-4921-4ead-b07c-58292d8bab52: 'Craft CMS Development' # Craft CMS Development
-    24474745-cae3-4528-9754-7b244efd5f02: Images # Images
-    c9cd7e70-1bf2-4b45-a229-0a1f69cbf54a: Common # Common
+    00c970ca-8955-4fba-a4eb-bb81c44607fc: 'Member Photos'
+    1c1329c6-45fd-4281-a1f6-c06df05ef53d: 'Craft CMS Development'
+    3b8d4818-4921-4ead-b07c-58292d8bab52: 'Craft CMS Development'
+    24474745-cae3-4528-9754-7b244efd5f02: Images
+    c9cd7e70-1bf2-4b45-a229-0a1f69cbf54a: Common
 system:
   edition: pro
   live: true
@@ -36,6 +36,6 @@ users:
   deactivateByDefault: false
   defaultGroup: ''
   photoSubpath: foo
-  photoVolumeUid: 00c970ca-8955-4fba-a4eb-bb81c44607fc # Member Photos
+  photoVolumeUid: 00c970ca-8955-4fba-a4eb-bb81c44607fc
   requireEmailVerification: true
   validateOnPublicRegistration: false

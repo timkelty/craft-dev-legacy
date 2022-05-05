@@ -1,8 +1,9 @@
 baseUrl: '@web/'
+enabled: true
 handle: default
 hasUrls: true
 language: en-US
 name: 'Craft CMS Development'
 primary: true
-siteGroup: 3b8d4818-4921-4ead-b07c-58292d8bab52 # Craft CMS Development
+siteGroup: 3b8d4818-4921-4ead-b07c-58292d8bab52
 sortOrder: 1
