@@ -29,11 +29,11 @@ fieldLayouts:
             width: 100
         name: Content
         uid: d7912da1-94e4-4ba9-b496-10d4ce19acdb
-fs: memberPhotos
+fs: memberPhotosLocal
 handle: memberPhotos
 name: 'Member Photos'
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''
-transformSubpath: tx
+transformSubpath: ''
