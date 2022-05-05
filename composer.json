@@ -1,6 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "4.0.x-dev",
+    "craftcms/cms": "*@dev",
     "vlucas/phpdotenv": "^5.4.0",
     "yiisoft/yii2-redis": "^2.0"
   },
@@ -12,6 +12,12 @@
       "modules\\": "modules/"
     }
   },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "submodules/*"
+    }
+  ],
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,

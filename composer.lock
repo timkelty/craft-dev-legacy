@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01c1750fbbe11b27481a916f4ae4daa8",
+    "content-hash": "3d45d2cb6ed97046eb22e84c90a59e8d",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -685,16 +685,10 @@
         {
             "name": "craftcms/cms",
             "version": "4.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/cms.git",
-                "reference": "06f09da628127c3213f3c32534541537bb4d7d13"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/06f09da628127c3213f3c32534541537bb4d7d13",
-                "reference": "06f09da628127c3213f3c32534541537bb4d7d13",
-                "shasum": ""
+                "type": "path",
+                "url": "submodules/craftcms",
+                "reference": "a388a87f486c24898b73e6fdf0a5dc897b342ba4"
             },
             "require": {
                 "commerceguys/addressing": "^1.2",
@@ -773,7 +767,25 @@
                     "yii2tech\\ar\\softdelete\\": "lib/ar-softdelete/src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "crafttests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "check-cs": [
+                    "ecs check --ansi"
+                ],
+                "fix-cs": [
+                    "ecs check --ansi --fix"
+                ],
+                "codecept-build": [
+                    "codecept build"
+                ],
+                "phpstan": [
+                    "phpstan --memory-limit=1G"
+                ]
+            },
             "license": [
                 "proprietary"
             ],
@@ -791,14 +803,16 @@
                 "yii2"
             ],
             "support": {
-                "docs": "https://docs.craftcms.com/v3/",
                 "email": "support@craftcms.com",
-                "forum": "https://craftcms.stackexchange.com/",
                 "issues": "https://github.com/craftcms/cms/issues?state=open",
-                "rss": "https://github.com/craftcms/cms/releases.atom",
-                "source": "https://github.com/craftcms/cms"
+                "forum": "https://craftcms.stackexchange.com/",
+                "source": "https://github.com/craftcms/cms",
+                "docs": "https://docs.craftcms.com/v3/",
+                "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-05-02T18:36:51+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "craftcms/oauth2-craftid",
