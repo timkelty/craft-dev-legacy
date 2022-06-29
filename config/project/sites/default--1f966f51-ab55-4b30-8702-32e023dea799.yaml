@@ -1,8 +1,0 @@
-baseUrl: '@web/'
-handle: default
-hasUrls: true
-language: en-US
-name: 'Craft CMS Development'
-primary: true
-siteGroup: f2ec2185-50ac-4c62-8098-a68efcd2a7aa # Craft CMS Development
-sortOrder: 1

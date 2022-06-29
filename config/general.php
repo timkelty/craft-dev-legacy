@@ -10,28 +10,14 @@
 
 use craft\helpers\App;
 
-$isProd = App::env('CRAFT_ENVIRONMENT') === 'production';
-$isDev = !$isProd;
-
 return [
-    // Whether generated URLs should omit "index.php"
     'omitScriptNameInUrls' => true,
-
-    // The secure key Craft will use for hashing and encrypting data
     'securityKey' => App::env('CRAFT_SECURITY_KEY'),
-
-    // Whether Dev Mode should be enabled (see https://craftcms.com/guides/what-dev-mode-does)
-    'devMode' => $isDev,
-
-    // Whether administrative changes should be allowed
-    'allowAdminChanges' => $isDev,
-
-    // Whether crawlers should be allowed to index pages and following links
-    'disallowRobots' => !$isProd,
-
-    // 'disabledPlugins' => '*',
-
+    'devMode' => App::env('CRAFT_DEV_MODE'),
+    'allowAdminChanges' => App::env('CRAFT_ALLOW_ADMIN_CHANGES'),
+    'disallowRobots' => App::env('CRAFT_DISALLOW_ROBOTS'),
     'aliases' => [
-        '@web' => App::env('DEFAULT_SITE_URL')
+        '@web' => App::env('WEB_URL'),
+        '@webroot' => App::env('WEBROOT_PATH'),
     ]
 ];

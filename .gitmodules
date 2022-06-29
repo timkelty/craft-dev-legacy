@@ -1,9 +1,0 @@
-[submodule "submodules/craftcms"]
-	path = submodules/craftcms
-	url = git@github.com:craftcms/cms.git
-[submodule "submodules/aws-s3"]
-	path = submodules/aws-s3
-	url = git@github.com:craftcms/aws-s3.git
-[submodule "submodules/redactor"]
-	path = submodules/redactor
-	url = git@github.com:craftcms/redactor.git

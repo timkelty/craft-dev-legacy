@@ -1,0 +1,8 @@
+baseUrl: '@web'
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft 3 Development'
+primary: true
+siteGroup: 8cec2af1-2ba5-4520-aed9-6953a501cfbe # Craft 3 Development
+sortOrder: 1
