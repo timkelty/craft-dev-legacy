@@ -1,0 +1,8 @@
+baseUrl: '@web'
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft 4 Development'
+primary: true
+siteGroup: f67c7c9b-cf1b-4839-9752-db69cbfd593f # Craft 4 Development
+sortOrder: 1

@@ -1,0 +1,22 @@
+dateModified: 1656466692
+email:
+  fromEmail: tim@craftcms.com
+  fromName: 'Craft 4 Development'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3ec516bb-26e7-4f7f-bbaa-2327c6b062ba: Common # Common
+    c5d66fb0-eb02-491b-af82-0ebd072ea6f4: 'Craft 4 Development' # Craft 4 Development
+    f67c7c9b-cf1b-4839-9752-db69cbfd593f: 'Craft 4 Development' # Craft 4 Development
+system:
+  edition: pro
+  live: true
+  name: 'Craft 4 Development'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
