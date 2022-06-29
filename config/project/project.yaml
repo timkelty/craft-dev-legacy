@@ -1,13 +1,30 @@
-dateModified: 1656466095
+dateModified: 1656471341
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft 3 Development'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    4a1e8fc4-b944-4d9d-8f84-f2fbbf27143b: Dummy # Dummy
     7de95332-c7ec-4173-9e9c-ba0d879267aa: 'Craft 3 Development' # Craft 3 Development
     8cec2af1-2ba5-4520-aed9-6953a501cfbe: 'Craft 3 Development' # Craft 3 Development
+    33c3dc5e-7d6d-4b90-a112-49f1908babd4: Clothing # Clothing
+    83bce3a4-3cd0-4b75-ac8e-caeafaf98f02: New # New
     41728021-347e-4735-80b2-4f1c2cd63036: Common # Common
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '1.2'
+  commerce:
+    edition: lite
+    enabled: true
+    licenseKey: LAC45BI619VEF3HYE3RC4OVC
+    schemaVersion: 3.4.13
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: pro
   live: true
