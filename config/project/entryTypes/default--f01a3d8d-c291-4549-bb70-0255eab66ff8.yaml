@@ -1,0 +1,55 @@
+fieldLayouts:
+  8fffbdab-4a28-4810-9c4c-d6b1b928639c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 51bde691-c563-4fd2-a600-d4d746049b0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8b778b26-a450-4d12-9e52-90b3096db214 # My Redactor
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73bfd6c2-4e98-40f8-b58a-2dbaa8db3271
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b80cebec-b30c-494f-8cde-ad6984380a84
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 96f00eb4-e11a-4b42-a31e-a40cb43d0521 # My Channel
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

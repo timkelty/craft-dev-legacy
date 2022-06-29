@@ -1,0 +1,27 @@
+columnSuffix: wpergjul
+contentColumnType: text
+fieldGroup: 3ec516bb-26e7-4f7f-bbaa-2327c6b062ba # Common
+handle: myRedactor
+instructions: null
+name: 'My Redactor'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
