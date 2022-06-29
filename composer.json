@@ -1,6 +1,6 @@
 {
   "require": {
-    "craftcms/cms": "*@dev",
+    "craftcms/cms": "^4.1.0",
     "vlucas/phpdotenv": "^5.4.0",
     "yiisoft/yii2-redis": "^2.0"
   },
@@ -12,12 +12,6 @@
       "modules\\": "modules/"
     }
   },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "submodules/*"
-    }
-  ],
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
@@ -26,7 +20,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.0"
+      "php": "8.1"
     }
   },
   "scripts": {
@@ -34,6 +28,5 @@
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
     ]
   },
-  "prefer-stable": true,
-  "minimum-stability": "beta"
+  "prefer-stable": true
 }
