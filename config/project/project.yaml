@@ -1,13 +1,23 @@
-dateModified: 1656515307
+dateModified: 1656596083
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft 4 Development'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  myFilesystem:
+    hasUrls: true
+    name: 'My Filesystem'
+    settings:
+      path: '@webroot/volumes/my-filesystem'
+    type: craft\fs\Local
+    url: '@web/volumes/my-filesystem'
 meta:
   __names__:
     3ec516bb-26e7-4f7f-bbaa-2327c6b062ba: Common # Common
+    6d4bd244-13b5-49af-8191-26cac2b6fec2: 'My Asset Field' # My Asset Field
     8b778b26-a450-4d12-9e52-90b3096db214: 'My Redactor' # My Redactor
     96f00eb4-e11a-4b42-a31e-a40cb43d0521: 'My Channel' # My Channel
+    8847432c-a023-4cd7-9f95-d3868b6928b8: 'My Volume' # My Volume
     a351c588-db89-456c-aa4b-ebe1e076ff1c: Dummy # Dummy
     b1a41433-0843-4dab-8d06-a2c8101a80d5: New # New
     c5d66fb0-eb02-491b-af82-0ebd072ea6f4: 'Craft 4 Development' # Craft 4 Development
