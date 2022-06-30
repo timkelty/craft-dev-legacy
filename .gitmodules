@@ -1,0 +1,12 @@
+[submodule "vendor-local/craftcms"]
+	path = vendor-local/craftcms
+	url = git@github.com:craftcms/cms.git
+[submodule "vendor-local/commerce"]
+	path = vendor-local/commerce
+	url = git@github.com:craftcms/commerce.git
+[submodule "vendor-local/aws-s3"]
+	path = vendor-local/aws-s3
+	url = git@github.com:craftcms/aws-s3.git
+[submodule "vendor-local/redactor"]
+	path = vendor-local/redactor
+	url = git@github.com:craftcms/redactor.git
