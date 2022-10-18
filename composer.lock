@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3761a783363e11a78e3dda31403faae",
+    "content-hash": "47dae1bf251f43a410d810bf97574415",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -8188,6 +8188,61 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.10.12"
             },
             "time": "2021-11-30T14:05:36+00:00"
+        },
+        {
+            "name": "sandersander/composer-link",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SanderSander/composer-link.git",
+                "reference": "d3fa772cedca35fb1ee77f0a5593f4b8efcdd035"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SanderSander/composer-link/zipball/d3fa772cedca35fb1ee77f0a5593f4b8efcdd035",
+                "reference": "d3fa772cedca35fb1ee77f0a5593f4b8efcdd035",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.2",
+                "ext-json": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "composer/composer": "^2.2",
+                "friendsofphp/php-cs-fixer": "^v3.4.0",
+                "phpmd/phpmd": "^2.12",
+                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.1",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "ComposerLink\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "ComposerLink\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SanderSander",
+                    "email": "themastersleader@hotmail.com"
+                }
+            ],
+            "description": "Adds ability to link local packages for development with composer",
+            "support": {
+                "issues": "https://github.com/SanderSander/composer-link/issues",
+                "source": "https://github.com/SanderSander/composer-link/tree/v0.3.1"
+            },
+            "time": "2022-08-25T17:17:13+00:00"
         },
         {
             "name": "yiisoft/yii2-shell",

@@ -8,6 +8,7 @@
     "yiisoft/yii2-redis": "^2.0"
   },
   "require-dev": {
+    "sandersander/composer-link": "^0.3.1",
     "yiisoft/yii2-shell": "^2.0.3"
   },
   "autoload": {
@@ -18,7 +19,8 @@
   "config": {
     "allow-plugins": {
       "craftcms/plugin-installer": true,
-      "yiisoft/yii2-composer": true
+      "yiisoft/yii2-composer": true,
+      "sandersander/composer-link": true
     },
     "sort-packages": true,
     "optimize-autoloader": true,
