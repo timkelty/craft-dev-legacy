@@ -1,4 +1,4 @@
-dateModified: 1656596083
+dateModified: 1673291400
 email:
   fromEmail: tim@craftcms.com
   fromName: 'Craft 4 Development'
@@ -32,7 +32,7 @@ plugins:
     edition: lite
     enabled: true
     licenseKey: CNR6ABNLD9BZ4F1C0TFU9MYX
-    schemaVersion: 4.0.1
+    schemaVersion: 4.2.3
   redactor:
     edition: standard
     enabled: true
