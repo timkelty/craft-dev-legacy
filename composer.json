@@ -9,7 +9,8 @@
   },
   "require-dev": {
     "sandersander/composer-link": "^0.3.1",
-    "yiisoft/yii2-shell": "^2.0.3"
+    "yiisoft/yii2-shell": "^2.0.3",
+    "craftcms/phpstan": "dev-main"
   },
   "autoload": {
     "psr-4": {
